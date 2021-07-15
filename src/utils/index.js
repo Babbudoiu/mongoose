@@ -8,4 +8,30 @@ exports.add = async (entryObj) => {
     } catch (error) {
         console.log(error);
     }
-}
+};
+
+exports.list = async () => {
+    try {
+        const movie = Movie.find
+        const displayList = await movie.
+        console.log(displayList);
+    } catch (error) {
+        console.log(error);
+    }
+};
+
+exports.update = async (updateObj) => {
+    try {
+        
+    } catch (error) {
+        
+    }
+};
+
+exports.delete = async (deleteObj) => {
+    try {
+        
+    } catch (error) {
+        
+    }
+};
