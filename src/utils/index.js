@@ -12,26 +12,27 @@ exports.add = async (entryObj) => {
 
 exports.list = async () => {
     try {
-        const movie = Movie.find
-        const displayList = await movie.
-        console.log(displayList);
+        const list = await Movie.find();
+        console.log(list);
     } catch (error) {
         console.log(error);
     }
 };
 
-exports.update = async (updateObj) => {
+exports.update = async (filter, update) => {
     try {
-        
+        const updateMovie = await Movie.findOneAndUpdate(filter, update, { new: true });
+        console.log(updateMovie);
     } catch (error) {
         
     }
 };
 
-exports.delete = async (deleteObj) => {
+exports.remove = async (search, cancel) => {
     try {
-        
-    } catch (error) {
+        const deleteMovie = await Movie.findOneAndDelete(search, cancel);
+        console.log(deleteMovie);
+        } catch (error) {
         
     }
 };

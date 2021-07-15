@@ -13,4 +13,9 @@ const connection = async () => {
     }
 };
 
+// exports.end = () => {
+//     const client = new mongoose(process.env.MONGO_URI);
+//     client.close();
+// }
+
 connection();
