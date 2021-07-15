@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Babbudoiu/mongoose.git"
+    "url": "git+https://github.com/Babbudoiu/mongoosecli.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Babbudoiu/mongoose/issues"
+    "url": "https://github.com/Babbudoiu/mongoosecli/issues"
   },
-  "homepage": "https://github.com/Babbudoiu/mongoose#readme",
+  "homepage": "https://github.com/Babbudoiu/mongoosecli#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "mongoose": "^5.13.2",
